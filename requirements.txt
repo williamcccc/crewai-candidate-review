@@ -1,0 +1,5 @@
+# CrewAI（含 Gemini 原生 SDK）
+crewai[google-genai]==1.15.39
+streamlit==1.67.0
+python-dotenv>=1.2,<2
+PyYAML>=6,<7

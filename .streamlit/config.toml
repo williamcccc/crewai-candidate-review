@@ -1,0 +1,14 @@
+# 隱私設定
+[browser]
+# 不傳送 Streamlit 使用統計
+gatherUsageStats = false
+
+[server]
+# 只在本機開放，區網其他電腦連不到
+address = "localhost"
+port = 8501
+headless = false
+
+[client]
+# 例外時不在畫面顯示完整堆疊（可能夾帶輸入內容）
+showErrorDetails = "none"
