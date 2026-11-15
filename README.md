@@ -22,7 +22,7 @@ python -m venv .venv
 cp .env.example .env        # 然後編輯 .env，填入 GEMINI_API_KEY
 
 # 3. 啟動
-.venv/Scripts/streamlit run app.py
+.venv/Scripts/python -m streamlit run app.py
 ```
 
 瀏覽器開啟 http://localhost:8501，按側邊欄「載入虛構範例」即可試跑。

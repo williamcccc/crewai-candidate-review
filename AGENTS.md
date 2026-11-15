@@ -44,7 +44,7 @@ samples/                    # 虛構履歷與 JD
 
 ```bash
 .venv/Scripts/python -m unittest discover -s tests -t .
-.venv/Scripts/streamlit run app.py
+.venv/Scripts/python -m streamlit run app.py
 ```
 
 修改 `review_crew/` 底下的模組後須**重啟** Streamlit：頁面重新整理只會重跑 `app.py`，不會重新載入已匯入的模組。
